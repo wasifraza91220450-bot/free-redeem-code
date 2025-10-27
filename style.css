@@ -1,0 +1,32 @@
+body {
+  font-family: system-ui;
+  background: #f9fafb;
+  margin: 0;
+  color: #333;
+}
+header {
+  text-align: center;
+  background: #0b76f6;
+  color: white;
+  padding: 1.5rem;
+}
+#codes {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+.code-box {
+  border-bottom: 1px solid #eee;
+  padding: .5rem 0;
+}
+.code-box:last-child {border: none;}
+.code {font-weight: bold; color: #f60;}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: .9rem;
+  background: #f2f2f2;
+}
